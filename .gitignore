@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Downloaded data files
+attack_data/
+
+# Output files
+output/
+
+# Python cache
+__pycache__/
+*.pyc
