@@ -1,12 +1,13 @@
 # Virtual environment
 .venv/
 
-# Downloaded data files
-attack_data/
-
-# Output files
-output/
-
 # Python cache
 __pycache__/
 *.pyc
+
+# Ignore content of data and output directories, but not the directories themselves
+attack_data/*
+!attack_data/.gitkeep
+
+output/*
+!output/.gitkeep
