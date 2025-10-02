@@ -11,3 +11,6 @@ attack_data/*
 
 output/*
 !output/.gitkeep
+
+# Gemini workspace files
+.gemini_workspace/
